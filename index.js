@@ -11,8 +11,9 @@ function johnLennonFacts(facts) {
   let response = [], i = 0;
   do {
     response.push(facts[0] + "!!!");
-    i++
-  } while facts.length > i;
+  } while facts.length > i++;
+  return response;
+}
 
 function iLoveTheBeatles(num) {
 
