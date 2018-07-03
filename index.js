@@ -22,4 +22,5 @@ function iLoveTheBeatles(num) {
     response.push("I love the Beatles!");
     num++;
   }
+  return response;
 }
