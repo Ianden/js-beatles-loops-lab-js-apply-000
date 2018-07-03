@@ -9,18 +9,18 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   let response = [], i = 0;
-  do {
+  while (i < facts.length) {
     response.push(facts[i] + "!!!");
     i++
-  } while (i < facts.length)
+  }
   return response;
 }
 
 function iLoveTheBeatles(num) {
   var response = [];
-  do while (num < 15) {
+  do {
     response.push("I love the Beatles!");
     num++;
-  }
+  } while (num < 15)
   return response;
 }
